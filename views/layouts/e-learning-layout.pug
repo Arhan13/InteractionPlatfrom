@@ -1,0 +1,231 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Coding for U!!
+  link(rel='stylesheet' href='/public/css/e-learning.css')
+  script(src='/public/js/e-learning.js' language='javascript')
+  link(rel='stylesheet' href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' integrity='sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN' crossorigin='anonymous')
+
+header
+  a.logo(href='#') Coding for U!!
+  .toggle(onclick='toggleMenu();')
+  ul.menu
+    li
+      a(href='#home' onclick='toggleMenu();') Home
+    li
+      a(href='#about' onclick='toggleMenu();') About
+    li
+      a(href='#services' onclick='toggleMenu();') Services
+    li
+      a(href='#work' onclick='toggleMenu();') Work
+    li
+      a(href='#testimonial' onclick='toggleMenu();') Testimonial
+    li
+      a(href='#contact' onclick='toggleMenu();') Contact
+
+section#home.banner
+  .textBx
+    h3
+      | Wanna learn to code!! 
+      br
+      |  But don&apos;t know where to start?? 
+      span
+    h2
+      | We&apos;re Coding for U!!
+      br
+      span
+    h3 The world&apos;s best free online coding learning platform.
+    a.btn(href='#about') About Us
+
+section#about.about
+  .heading
+    p Get to Know Us??
+    h2 Who we are!!
+  .content
+    .w50
+      img.proPic(src='myPic2.jpg' alt='')
+    .contentBx.w50
+      h3 Who we are?
+      h2
+        | We&apos;re 
+        b CODING FOR U
+        | , a free E-coding learning wesite.
+      p
+        | We Enjoy teaching &amp; taking Classes so that we can relate more of with our students all over the world &amp; help them in their programming jorney. Our teachers are Active Developers in top-companies who have supported their companies development from basic design to huge wesite and application infrastructures across the fields like Android dev, IOS dev, Hybrid dev, Web design,
+        | Full stack dev and much more!!
+      br
+      p
+        | We&apos;re a freelancing website from INDIA and we have taught and helped millions of people how to code using the latest designs and software trends. We help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps us prioritize tasks, iterate fast and deliver faster.
+      .heading.bottom
+        a.btn.round(href='courses list.docx') Download courses list
+        .bt
+          b Our establishment:
+          |  2015
+        .bt
+          b Email:
+          |  lovecoding.xx@gmail.com
+          br
+          b Location:
+          |  INDIA
+
+section#services.services
+  .heading.white
+    h2 Our Services
+    p Services we Offer to Clients
+  .content
+    .servicesBx
+      i.fa.fa-css3.fa-4x
+      h3 Web Design &amp; Dev
+      p Responsive eb design &amp; dev using HTML, CSS, Javascript, Jquery &amp; Bootstrap.
+    .servicesBx
+      i.fa.fa-wordpress.fa-4x
+      h3 Android &amp; IOS dev
+      p Android dev with Java, Kotlin &amp; IOS dev with Swift + Flutter for hybrid dev.
+    .servicesBx
+      i.fa.fa-drupal.fa-4x
+      h3 Full stack dev
+      p Dev using Java, Spring, Hibernate, Socket IO &amp; RESTful API.
+    .servicesBx
+      i.fa.fa-joomla.fa-4x
+      h3 MERN Stack dev
+      p Dev using MongoDB, NodeJS, ExpressJS &amp; ReactJS.
+    .servicesBx
+      i.fa.fa-android.fa-4x
+      h3 Blockchain dev
+      p Dev in Blockchain using Solidity with secure payments &amp; transactions.
+    .servicesBx
+      i.fa.fa-cart-arrow-down.fa-4x
+      h3 E-Commerce Projects
+      p Complete free tutorials on E-commerce projects using various tech-stacks.
+
+section#work.work
+  .heading
+    h2 Our Latest Work
+    p
+      | Showcasing some of our latest 
+      b FREE Courses
+  .content
+    .workBx
+      a(href='https://www.youtube.com/watch?v=W6NZfCO5SIk' target='_blank')
+        img(src='jsCourse.jpg' alt='')
+        p Javascript Complete - Essential Course - 2021
+    .workBx
+      a(href='https://www.youtube.com/watch?v=Q33KBiDriJY' target='_blank')
+        img(src='htmlCourse.jpg' alt='')
+        p Web - Design Complete Course - 2021 
+    .workBx
+      a(href='https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3' target='_blank')
+        img(src='cssCourse.png' alt='')
+        p React Js with latest Animation Effects - 2021
+    .workBx
+      a(href='https://www.youtube.com/watch?v=9tn82yBrX90&list=PLUVqY59GNZQMcLXlrBo4T557kWjbKHMLS' target='_blank')
+        img(src='webCourse.png' alt='')
+        p MERN Stack Latest Course - 2021
+    .workBx
+      a(href='https://www.youtube.com/watch?v=eIrMbAQSU34' target='_blank')
+        img(src='formCourse.jpg' alt='')
+        p Java, The Begineer&apos;s Way - 2021 Edition
+    .workBx
+      a(href='https://www.youtube.com/watch?v=vLnPwxZdW4Y' target='_blank')
+        img(src='c++Course.png' alt='')
+        p Learn C++ for Competitive Programming - 2021
+    .workBx
+      a(href='https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ' target='_blank')
+        img(src='flutterCourse.jpeg' alt='')
+        p Flutter Guide - Make Hybrid Apps - 2021
+    .workBx
+      a(href='https://www.youtube.com/watch?v=Org0vh-VSgA&list=PLsyeobzWxl7rooJFZhc3qPLwVROovGCfh' target='_blank')
+        img(src='/views/layouts/kotlinCourse.png' alt='')
+        p Kotlin - From 0 to Hero - 2021 latest
+    .workBx
+      a(href='https://www.youtube.com/watch?v=QXeEoD0pB3E&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3' target='_blank')
+        img(src='pythonCourse.jpg' alt='')
+        p Learn Python from Scratch in 2021
+    .workBx
+      a(href='https://www.youtube.com/watch?v=fis26HvvDII' target='_blank')
+        img(src='animationCourse.jfif' alt='')
+        p Master Android Dev with Java - 2021
+    .heading
+      a.btn(href='https://www.youtube.com/results?search_query=programming+courses' target='_blank' style='color:#fff;') View More Courses
+
+section#testimonial.testimonial
+  .heading.white
+    h2 Some valuable Feedbacks..
+    p What our clients have to say about us....
+  .content
+    .testimonialBx
+      p
+        | CODING FOR U is an excellent website for those who want to understand how things work in depth in the industry. Very helpful and versatile for those who want to master new tech stack quickly. Definitely recommended by me.
+      h3
+        | Piyush Gupta
+        br
+        | (Software Developer)
+    .testimonialBx
+      p
+        | I&apos;ve been Searching for a good website which teaches coding free of cost. This is definitely the one with the best content.  Thanks CODING FOR U!!
+      h3
+        | Shubham K
+        br
+        | (Student)
+
+section#contact.contact
+  .heading.white
+    p Feel free to contact Us anytime!!
+    h2 Get in Touch
+  .content
+    .contactInfo
+      h3 Contact Info
+      p
+        | Always available, if any help required in project!!
+        br
+        |  Feel free to contact us!
+      .contactInfoBx
+        .box
+          .icon
+            i.fa.fa-map-marker
+          .text
+            h3 Address
+            p
+              | SRM Institute,
+              br
+              | Science &amp; Tech.
+              br
+              | Chennai, Tamil-Nadu
+        .box
+          .icon
+            i.fa.fa-phone
+          .text
+            h3 Phone no :
+            p 123-4567-098766
+        .box
+          .icon
+            i.fa.fa-envelope-o
+          .text
+            h3 Email Address
+            p lovecoding.xx@gmail.com
+        br
+        h3 Social Connect
+        .boxSocial
+          .icon
+            a(href='https://www.facebook.com' target='_blank')
+              i.fa.fa-facebook-square
+          .icon
+            a(href='https://www.twitter.com' target='_blank')
+              i.fa.fa-twitter-square
+          .icon
+            a(href='https://www.linkedin.com/' target='_blank')
+              i.fa.fa-linkedin-square
+          .icon
+            a(href='https://www.instagram.com/?hl=en' target='_blank')
+              i.fa.fa-instagram
+    .formBx
+      form
+        h3 Message Me
+        input(type='text' placeholder='Full Name' name='')
+        input(type='email' placeholder='Email' name='')
+        textarea(name='' rows='6' id='' placeholder='Your Message')
+        input(type='submit' value='Send Message' name='')
+
+footer.copyright
+  p &copy; 2020, codingforu.com, Allrights reserved
